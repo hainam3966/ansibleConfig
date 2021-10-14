@@ -1,0 +1,2 @@
+ubuntu2 ansible_host=192.168.20.31 ansible_ssh_pass=C@mv@0p0stnet
+ubuntu3 ansible_host=192.168.20.32 ansible_ssh_pass=C@mv@0p0stnet 
