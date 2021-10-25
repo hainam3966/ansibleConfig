@@ -4,7 +4,7 @@ metadata:
   name: hello
 spec:
   selector:
-    app: hello-kube # label selectors Pod
+    app: nginx # label selectors Pod
   ports:
     - port: 80 # port of the serivce
-      targetPort: 3000 # port of the container that service will forward to 
+      targetPort: 80 # port of the container that service will forward to 
