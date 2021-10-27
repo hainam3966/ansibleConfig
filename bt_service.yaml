@@ -6,5 +6,5 @@ spec:
   selector:
     app: nginx # label selectors Pod
   ports:
-    - port: 80 # port of the serivce
+    - port: 81 # port of the serivce
       targetPort: 80 # port of the container that service will forward to 
