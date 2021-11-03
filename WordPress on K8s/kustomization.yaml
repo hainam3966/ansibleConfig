@@ -4,4 +4,5 @@ metadata:
   name: mysql-pass
 type: Opaque
 data:
-  password: VNP0st
+  # root password is required to be specified
+  password: C@mv@0p0stnet
