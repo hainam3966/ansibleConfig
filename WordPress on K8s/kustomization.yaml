@@ -1,9 +1,7 @@
 apiVersion: v1
 kind: Secret
-secretGenerator:
-- name: mysql-pass
-  literals:
-  - password=VNP0st
-resources:
-  - mysql-deployment.yaml
-  - wordpress-deployment.yaml
+metadata:
+  name: mysql-pass
+type: Opaque
+data:
+  password: VNP0st
