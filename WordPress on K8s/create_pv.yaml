@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: bt-pv
+spec:
+  storageClassName: "wordpress_pv"
+  capacity:
+    storage: 5gi
+  accessModes:
+    - ReadWriteOnce
+  hostPath:
+    path: "/d1"
+  
