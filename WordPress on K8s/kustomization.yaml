@@ -4,4 +4,4 @@ metadata:
   name: mysql-pass
 type: kubernetes.io/basic-auth
 stringData:
-  password: t0p-Secret
+  password: VNP0st
